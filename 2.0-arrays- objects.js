@@ -54,12 +54,12 @@ const user = {
     name: 'Diego',
     age: 28,
     isActive: true,
-    socialNetwork:{
-       facebook: true,
-       instagram: true,
-       tikTok: false
+    socialNetwork: {
+        facebook: true,
+        instagram: true,
+        tikTok: false
     }
-   }
+}
 
 //ACCESO POR EL NOMBRE DE LA PROPIEDAD
 // De esta manera podemos simplemente acceder a los valores que tiene cada una de las propiedas del objeto
@@ -80,7 +80,7 @@ user.socialNetwork['tiktok']
 
 //Al igual que con los array podemos hacer una desestructuración pero aqui no importa la posicion si no el nombre
 
-const {name, socialNetwork, age} = user
+const { name, socialNetwork, age } = user
 
 //name = Diego
 //socialNetwork = socialNetwork:{ facebook: true, instagram: true, tikTok: false }

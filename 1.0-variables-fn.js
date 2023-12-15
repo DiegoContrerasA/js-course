@@ -50,14 +50,14 @@ const arr4 = [s1, n1, b1] // este es un array mixto donde tenemos string, number
 //los valores pueden ser cualquier tipo de dato permitido incluyendo otros objetos
 
 const obj = {
- name: 'Diego',
- age: 28,
- isActive: true,
- socialNetwork:{
-    facebook: true,
-    instagram: true,
-    tikTok: false
- }
+    name: 'Diego',
+    age: 28,
+    isActive: true,
+    socialNetwork: {
+        facebook: true,
+        instagram: true,
+        tikTok: false
+    }
 }
 
 /*
@@ -77,8 +77,8 @@ Y las arrow functions o funciones de flecha que se declaran con la siguiente est
 // Vamos a crear una funcion suma que va a recibir 2 numeros y debe devolver el resultado
 //el return lo que hace es devolver el valor calculado de la suma para que al momento de invocar esa funcion
 //obtengamos el resultado
-function suma(n1,n2){
-return n1 + n1
+function suma(n1, n2) {
+    return n1 + n1
 }
 
 //Las invocacion de una funcion de hace de la siguiente manera, llamamos la funcion y le enviamos sus parametros
